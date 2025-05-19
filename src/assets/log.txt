@@ -1,0 +1,50 @@
+Initializing model...
+
+Loading MNIST data...
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9.91M/9.91M [00:01<00:00, 9.63MB/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 28.9k/28.9k [00:00<00:00, 258kB/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.65M/1.65M [00:00<00:00, 2.07MB/s]
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4.54k/4.54k [00:00<00:00, 4.54MB/s]
+Loading complete.
+Train size: 54000, Validation size: 6000, Test size: 10000
+
+Beginning training:
+Epoch 1/15: Train Loss: 0.1409, Train Acc: 0.9578 | Val Loss: 0.0474, Val Acc: 0.9852
+Epoch 2/15: Train Loss: 0.0615, Train Acc: 0.9813 | Val Loss: 0.0353, Val Acc: 0.9887
+Epoch 3/15: Train Loss: 0.0458, Train Acc: 0.9854 | Val Loss: 0.0339, Val Acc: 0.9898
+Epoch 4/15: Train Loss: 0.0359, Train Acc: 0.9884 | Val Loss: 0.0271, Val Acc: 0.9917
+Epoch 5/15: Train Loss: 0.0282, Train Acc: 0.9907 | Val Loss: 0.0239, Val Acc: 0.9928
+Epoch 6/15: Train Loss: 0.0249, Train Acc: 0.9918 | Val Loss: 0.0287, Val Acc: 0.9912
+Epoch 7/15: Train Loss: 0.0207, Train Acc: 0.9931 | Val Loss: 0.0238, Val Acc: 0.9940
+Epoch 8/15: Train Loss: 0.0165, Train Acc: 0.9945 | Val Loss: 0.0265, Val Acc: 0.9932
+Epoch 9/15: Train Loss: 0.0132, Train Acc: 0.9955 | Val Loss: 0.0258, Val Acc: 0.9927
+Epoch 10/15: Train Loss: 0.0120, Train Acc: 0.9958 | Val Loss: 0.0231, Val Acc: 0.9942
+Epoch 11/15: Train Loss: 0.0098, Train Acc: 0.9971 | Val Loss: 0.0233, Val Acc: 0.9925
+Epoch 12/15: Train Loss: 0.0087, Train Acc: 0.9969 | Val Loss: 0.0254, Val Acc: 0.9928
+Epoch 13/15: Train Loss: 0.0077, Train Acc: 0.9974 | Val Loss: 0.0230, Val Acc: 0.9940
+Epoch 14/15: Train Loss: 0.0063, Train Acc: 0.9981 | Val Loss: 0.0205, Val Acc: 0.9937
+Epoch 15/15: Train Loss: 0.0058, Train Acc: 0.9980 | Val Loss: 0.0248, Val Acc: 0.9933
+Training complete.
+
+Test Accuracy: 0.9941
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       980
+           1       1.00      1.00      1.00      1135
+           2       0.99      1.00      0.99      1032
+           3       0.99      1.00      0.99      1010
+           4       0.99      1.00      0.99       982
+           5       1.00      0.99      0.99       892
+           6       1.00      0.99      0.99       958
+           7       0.99      1.00      0.99      1028
+           8       0.99      1.00      0.99       974
+           9       0.99      0.99      0.99      1009
+
+    accuracy                           0.99     10000
+   macro avg       0.99      0.99      0.99     10000
+weighted avg       0.99      0.99      0.99     10000
+
+Model ready.
+Launching Tkinter application...
